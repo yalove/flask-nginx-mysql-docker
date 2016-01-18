@@ -1,7 +1,7 @@
 FROM ubuntu:trusty
 
 RUN apt-get update
-RUN apt-get install -y python python-pip python-virtualenv nginx gunicorn supervisor
+RUN apt-get install -y python python-pip python-virtualenv nginx gunicorn supervisor mysql-server
 
 # Setup flask application
 RUN mkdir -p /www
