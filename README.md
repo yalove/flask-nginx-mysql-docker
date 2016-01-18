@@ -25,6 +25,7 @@ workdir -> app
 you can  put you application in app 
 
 when you  use mysql you can use flask config 
+
 set `MYSQL_USER= os.environ.get('MYSQL_USER')`
 
 `MYSQL_PASS= os.environ.get('MYSQL_PASS')`
